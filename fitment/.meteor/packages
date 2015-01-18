@@ -10,3 +10,10 @@ insecure
 bootstrap
 jquery
 iron:router
+accounts-password
+accounts-ui
+email
+accounts-facebook
+http
+fastclick
+houston:admin
