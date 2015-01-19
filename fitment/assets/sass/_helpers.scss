@@ -17,6 +17,11 @@
 .pad-left 		{ padding-left: 	20px; }
 .pad-right 		{ padding-right: 	20px; }
 
+.pad-top-sm 	{ padding-top: 		10px; }
+.pad-bottom-sm 	{ padding-bottom: 	10px; }
+.pad-left-sm 	{ padding-left: 	10px; }
+.pad-right-sm 	{ padding-right: 	10px; }
+
 .pad-x			{ padding-left: 20px; padding-right: 20px; }
 .pad-y			{ padding-top: 20px; padding-bottom: 20px; }
 
@@ -26,3 +31,8 @@
 .pad-right-lg 	{ padding-right: 	40px; }
 
 .weight-bold 	{ font-weight: 		bold; }
+
+
+.border-bottom {
+	border-bottom: 1px solid #f2f2f2;
+}

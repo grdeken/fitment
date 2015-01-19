@@ -1,11 +1,13 @@
 .card {
   border: 1px solid #f2f2f2;
-  border-radius: 3px; }
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 20px; }
   .card header {
-    padding-right: 10px;
-    padding-left: 10px; }
+    border-bottom: 1px solid #f2f2f2; }
   .card img {
-    width: 200px;
+    width: 100%;
+    max-height: 200px;
     margin: 0 auto; }
 
 #login-dropdown-list {
@@ -13,6 +15,14 @@
   left: -150px;
   box-shadow: none;
   border-radius: 0; }
+
+.hero-wrapper {
+  padding-top: 40px;
+  padding-bottom: 140px; }
+  .hero-wrapper h1 {
+    font-size: 4em; }
+  .hero-wrapper p {
+    font-size: 1.5em; }
 
 .text-center {
   text-align: center; }
@@ -53,6 +63,18 @@
 .pad-right {
   padding-right: 20px; }
 
+.pad-top-sm {
+  padding-top: 10px; }
+
+.pad-bottom-sm {
+  padding-bottom: 10px; }
+
+.pad-left-sm {
+  padding-left: 10px; }
+
+.pad-right-sm {
+  padding-right: 10px; }
+
 .pad-x {
   padding-left: 20px;
   padding-right: 20px; }
@@ -75,3 +97,6 @@
 
 .weight-bold {
   font-weight: bold; }
+
+.border-bottom {
+  border-bottom: 1px solid #f2f2f2; }
