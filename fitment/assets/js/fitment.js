@@ -1,20 +1,15 @@
+Wheels = new Mongo.Collection("wheels");
+
 if (Meteor.isClient) {
-  // counter starts at 0
-  Session.setDefault("counter", 0);
-
-  Template.home.helpers({
-    counter: function () {
-      return Session.get("counter");
+  
+  // Wheel template
+  Template.body.helpers ({
+    wheels: function() {
+      return Wheels.find({});
     }
   });
 
-  Template.home.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set("counter", Session.get("counter") + 1);
-    }
-  });
-
+  // Account Setup
   Accounts.ui.config({
     passwordSignupFields: "USERNAME_ONLY"
   });
@@ -27,6 +22,6 @@ if (Meteor.isClient) {
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
-    // code to run on server at startup
+    // Code to run on server at startup
   });
-}
+};
